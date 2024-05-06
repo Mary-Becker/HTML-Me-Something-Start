@@ -1,1 +1,108 @@
 /* Write your CSS here! */
+ @font-face {
+    font-family:'One Piece Font';
+   src: url('Fonts/one\ piece\ font.ttf') format('truetype');
+ }
+
+/* Ted lasso font*/
+ @font-face {
+    font-family: 'Futura76BoldItalic';
+    src: url('Fonts/FUTURA76BOLDITALIC.ttf') format('truetype');
+ }
+
+@font-face {
+    font-family: 'AvatarAirbender';
+    src: url('Fonts/avatar-airbender/Avatar\ Airbender.ttf') format('truetype');
+}
+
+/* 2nd Avatar font */
+@font-face {
+    font-family: 'Herculanum';
+    src: url('Fonts/herculanum.ttf') format('truetype')
+}
+ 
+.left {
+    float: left;
+    width: 50%;
+}
+
+.right {
+    float: right;
+    width: 50%;
+}
+
+img {
+    width: 35%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+body {
+    margin: 8px;
+    display: block;
+    background-image: url('https://i.pinimg.com/originals/76/02/6d/76026d21b72c6ad0eedff7ce58fba19a.jpg');
+    background-size: cover;
+    padding: 30px;
+}
+
+
+#mainHeading {
+    font-family: "broadway";
+    font-size: 36px;
+    color: rgb(4, 4, 91);
+    text-align: center;
+    
+
+}
+.first h2 {
+    font-family:'American Horror Story', sans-serif;
+    text-align: center;
+}
+
+.second h2 {
+    font-family:'impact', sans-serif;
+    text-align: center;
+}
+
+.third h2 {
+    font-family:'Futura76BoldItalic', sans-serif;
+    text-align: center;
+    font-size: 35px;
+    
+}
+
+.fourth h2 {
+    font-family:'One Piece Font', sans-serif;
+    font-size: 35px;
+    text-align: center;
+}
+
+.fifth h2 {
+    font-family: 'AvatarAirbender', sans-serif;
+    text-align: center;
+    font-size: 35px;
+}
+
+.fifth h3 {
+    font-family: 'Herculanum', sans-serif;
+    text-align: center;
+    font-size: 25px;
+}
+
+#testP.funParagraph {
+    font-style: italic;
+    font-weight: bold;
+    color: rgb(212, 255, 0);
+}
+
+article {
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+footer {
+    background-color: #f2f2f2;
+    padding: 10px;
+    text-align: center;
+    border: 2px dotted;
+}
